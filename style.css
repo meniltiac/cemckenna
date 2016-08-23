@@ -10,3 +10,16 @@
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Text Domain:  cemckenna
 */
+
+
+/* Peaker */
+
+
+html {
+    font-family: 'Lato', sans-serif;
+}
+
+
+#peaker {
+    text-align: center;
+}

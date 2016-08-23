@@ -1,13 +1,9 @@
-<!DOCTYPE html>
-<html <?php language_attributes(); ?> class="no-js">
-<head>
-	<meta charset="<?php bloginfo( 'charset' ); ?>">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<?php wp_head(); ?>
-</head>
-    <body <?php body_class(); ?>>
-        <div class="container-fluid" id="main-container">
-            Test
-        </div><!--end #main-container-->
-    </body>
-</html>
+<?php get_header(); ?>
+        <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3" id="peaker">
+                testing please work
+            </div>
+        </div>
+        </div>
+<?php get_footer(); ?>
